@@ -18,7 +18,6 @@ class CreatePeopleTable extends Migration
             $table->string('name');
             $table->string('city');
             $table->text('friends');                        
-            $table->timestamps();
         });
     }
 
